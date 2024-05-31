@@ -87,10 +87,7 @@ def Menu():
 def Deposito():
     id_usuario = input("Ingrese el ID de usuario: ")
     usuario_encontrado = False
-    if not usuario_encontrado:
-        print("No se encontro el usuario con el ID proporcionado.")
-    else:
-        monto = float(input("Ingrese el monto a Deposito: "))
+    monto = float(input("Ingrese el monto a Deposito: "))
     
     for usuario in usuarios:
         if usuario.id_usuario == id_usuario:
@@ -98,6 +95,8 @@ def Deposito():
             usuario.saldo += monto
             print(Fore.GREEN+"Deposito realizado con exito.")
             break
+    if not usuario_encontrado:
+        print("No se encontro el usuario con el ID proporcionado.")
   
 
 def Transferencia():
@@ -138,7 +137,6 @@ def Mostrar_cuenta():
             print(Fore.YELLOW + f"Saldo de la cuenta: {usuario.saldo}")
             for cuenta in usuario.cuentas:
                 print(Fore.CYAN + f"Tipo de cuenta: {cuenta.tipo}")
-                print(Fore.CYAN + f"Saldo: {cuenta.saldo}")
             print(Fore.GREEN + "==============================")
             break
     if not usuario_encontrado:
