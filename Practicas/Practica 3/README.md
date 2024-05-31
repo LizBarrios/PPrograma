@@ -1,16 +1,16 @@
 # Paradigma de programacion funcional.
 
 ### Introducción
-> El paradigma de programación funcional es un enfoque de programación que trata de tratar la computación como una evaluación de funciones matemáticas y evitar el cambio de estado y datos mutables. 
-> En este paradigma, las funciones son ciudadanos de primera clase, lo que significa que pueden ser asignadas a variables, pasadas como argumentos y devueltas como valores. En esta práctica, se exploró el paradigma de programación funcional a través del lenguaje de programación Standard ML (SML).
+El paradigma de programación funcional es un enfoque de programación que trata de tratar la computación como una evaluación de funciones matemáticas y evitar el cambio de estado y datos mutables. 
+En este paradigma, las funciones son ciudadanos de primera clase, lo que significa que pueden ser asignadas a variables, pasadas como argumentos y devueltas como valores. En esta práctica, se exploró el paradigma de programación funcional a través del lenguaje de programación Standard ML (SML).
 
 ---
 ### Ejercicios de la práctica. Siguiendo el tour de SML.
 #### Ejercicio 0.1
 Como abrir el SML desde git bash.
 
-![SML](/imagenes/SML0.1.png)
-![SML_Despues](/imagenes/SML0.1.1.png)
+![sml](imagenes/SML0.1.1.png)
+![SMl](imagenes/SML0.1.1.png)
 
 ---
 ### Ejercicio 0.2
