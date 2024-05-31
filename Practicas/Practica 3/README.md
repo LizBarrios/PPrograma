@@ -9,8 +9,8 @@ En este paradigma, las funciones son ciudadanos de primera clase, lo que signifi
 #### Ejercicio 0.1
 Como abrir el SML desde git bash.
 
-![sml](ruta/a/la/imagen.png)
-![SM](/imagenes/SML0.1.1.png)
+![sml](imagenes/SML0.1.1.png)
+![SMl](imagenes/SML0.1.1.png)
 
 ---
 ### Ejercicio 0.2
